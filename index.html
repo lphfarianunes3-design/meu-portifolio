@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RoboMaker Kits Educacionais</title>
+    <style>
+      /* Configurações Gerais */
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f9;
+        color: #333;
+      }
+
+      header {
+        background-color: #2c3e50;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+      }
+
+      header h1 {
+        margin: 0 0 10px 0;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0 10px;
+      }
+
+      nav a:hover {
+        text-decoration: underline;
+      }
+
+      main {
+        max-width: 1000px;
+        margin: 20px auto;
+        padding: 0 20px;
+      }
+
+      section {
+        background: #ffffff;
+        margin-bottom: 30px;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      h2 {
+        color: #2c3e50;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 8px;
+      }
+
+      /* Estilização da Lista de Categorias */
+      ul {
+        list-style-type: square;
+        padding-left: 20px;
+      }
+
+      ul li {
+        margin-bottom: 8px;
+        font-size: 1.1em;
+      }
+
+      /* Estilização dos Produtos */
+      #produtos {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 20px;
+      }
+
+      article {
+        border: 1px solid #ddd;
+        padding: 15px;
+        border-radius: 6px;
+        text-align: center;
+        background-color: #fafafa;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      article h3 {
+        margin-top: 0;
+        color: #34495e;
+      }
+
+      article img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 4px;
+        margin-bottom: 10px;
+      }
+
+      article strong {
+        color: #e74c3c;
+        font-size: 1.2em;
+        display: block;
+        margin-top: 10px;
+      }
+
+      /* Estilização da Tabela de Cursos */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+      }
+
+      th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+
+      th {
+        background-color: #3498db;
+        color: white;
+      }
+
+      tr:hover {
+        background-color: #f1f1f1;
+      }
+
+      /* Estilização do Rodapé */
+      footer {
+        background-color: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+      }
+
+      footer a {
+        color: #3498db;
+        text-decoration: none;
+        margin: 0 5px;
+      }
+
+      footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>RoboMaker Kits Educacionais</h1>
+
+      <nav>
+        <a href="#categorias">Categorias</a> |
+        <a href="#produtos">Produtos</a> |         
+        <a href="#cursos">Cursos</a> |
+        <a href="cadastro.html">Cadastro</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="categorias">
+        <h2>Nossas Categorias</h2>
+
+        <ul>
+          <li>Placas Microcontroladoras</li>
+          <li>Sensores</li>
+          <li>Motores e Servos</li>
+          <li>Estruturas de Montagem</li>
+        </ul>
+      </section>
+
+      <section id="produtos">
+        <h2>Produtos em Destaque</h2>
+
+        <article>
+          <h3>Kit Arduino Uno</h3>
+
+          <img
+            src="https://images.unsplash.com/photo-1621136429581-bf0890d5ac22"
+            alt="Kit Arduino Uno"
+          />
+
+          <p>Kit completo para projetos de robótica e automação.</p>
+
+          <strong>R$ 120,00</strong>
+        </article>
+
+        <article>
+          <h3>Sensor Ultrassônico</h3>
+
+          <img
+            src="https://images.unsplash.com/photo-1583267925993-935f26612138"
+            alt="Sensor Ultrassônico"
+          />
+
+          <p>Sensor utilizado para medir distância em projetos inteligentes.</p>
+
+          <strong>R$ 35,00</strong>
+        </article>
+
+        <article>
+          <h3>Servo Motor SG90</h3>
+
+          <img
+            src="https://www.usinainfo.com.br/1031834-thickbox_default/micro-servo-motor-9g-sg90-180-16kgfcm-de-posicao.jpg"
+            alt="Servo Motor SG90"
+          />
+
+          <p>Servo motor compacto ideal para braços robóticos.</p>
+
+          <strong>R$ 28,00</strong>
+        </article>
+
+        <article>
+          <h3>Chassi de Acrílico para Robôs</h3>
+
+          <img
+            src="https://http2.mlstatic.com/D_NQ_NP_2X_738064-MLB47559295272_092021-F.webp"
+            alt="Chassi de Acrílico para robôs"
+          />
+
+          <p>Base resistente para montagem de robôs educacionais.</p>
+
+          <strong>R$ 85,00</strong>
+        </article>
+      </section>
+
+      <section id="cursos">
+        <h2>Oficinas Presenciais</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Curso</th>
+              <th>Duração</th>
+              <th>Valor</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>Lógica e Pensamento Computacional</td>
+              <td>40h</td>
+              <td>R$ 250,00</td>
+            </tr>
+
+            <tr>
+              <td>Introdução à Robótica</td>
+              <td>30h</td>
+              <td>R$ 300,00</td>
+            </tr>
+
+            <tr>
+              <td>Programação com Arduino</td>
+              <td>50h</td>
+              <td>R$ 450,00</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 RoboMaker Kits Educacionais - Desenvolvido por luis gostoso </p>
+
+      <p>Redes Sociais:</p>
+
+      <a href="#">Facebook</a> | <a href="#">Instagram</a> |
+      <a href="#">YouTube</a>
+    </footer>
+  </body>
+</html>
